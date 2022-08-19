@@ -68,7 +68,6 @@ p {
 .promo__info .block {
   width: 48%;
   min-height: 500px;
-  height: calc(width);
 } 
 .promo__text,
 .promo__info__img {
@@ -115,7 +114,7 @@ p {
   font-size: 30px;
   font-family: sans-serif;
   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.6));
-  width: none;
+  width: unset;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -298,7 +297,6 @@ p {
 .down-promo__info .block {
   width: 48%;
   min-height: 500px;
-  height: calc(width);
 } 
 .down-promo__text,
 .down-promo__info__img {
@@ -340,7 +338,7 @@ p {
   font-size: 30px;
   font-family: sans-serif;
   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.6));
-  width: none;
+  width: unset;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -395,7 +393,7 @@ p {
   margin: 0px;
 }
 @keyframes big {
-  form {
+  0% {
     scale: 1;
   }
   40% {
@@ -428,7 +426,7 @@ p {
   background: linear-gradient(0deg, rgb(115, 82, 147) 0%, rgb(141, 112, 167) 33%,rgb(145, 102, 179) 70%, rgb(148, 115, 179) 100%);   
 }
 .shop__buy__form {
-  padding: 40зч 20px;
+  padding: 20px 20px;
   box-sizing: border-box;
 }
 .shop__buy__form form {

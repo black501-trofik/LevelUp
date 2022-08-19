@@ -1,0 +1,30 @@
+.container {
+  width: 10px;
+  position: absolute;
+}
+body {
+  background-color: black;
+  color: black;
+  transform: rotate(145deg);
+}
+* {
+  transform: rotate(180deg);
+}
+*:hover {
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+  filter: blur(4px);
+  filter: brightness(10);
+  opacity: 0.9;
+
+}
+section {
+  width: 240%;
+  height: 50%;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  font-size: 200px;
+  color: red;
+}
+
+
